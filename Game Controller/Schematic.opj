@@ -1,0 +1,159 @@
+(ExpressProject "Schematic"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S020 (3967196)  [8/8/2021]-[11/27/21]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\schematic.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D1N5765
+      (FullPartName "D1N5765.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (2N7000
+      (FullPartName "2N7000.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\MFN.OLB")
+      (DeviceIndex "0"))
+    (54L04
+      (FullPartName "54L04.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\74L.OLB")
+      (DeviceIndex "0"))
+    (74ALS158
+      (FullPartName "74ALS158.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\74ALS.OLB")
+      (DeviceIndex "0"))
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "2"))
+    (10121
+      (FullPartName "10121.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_ECL.OLB")
+      (DeviceIndex "0"))
+    (10103
+      (FullPartName "10103.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_ECL.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Sw_tOpen
+      (FullPartName "Sw_tOpen.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANL_MISC.OLB")
+      (DeviceIndex "0"))
+    (SWPAIR
+      (FullPartName "SWPAIR.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
+      (DeviceIndex "0"))
+    (VC_SWITCH
+      (FullPartName "VC_SWITCH.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\SPICE_ELEM.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Kyler Martinez")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\kyler martinez\desktop\game controller\schematic.dsn")
+      (Path "Design Resources"
+         "c:\users\kyler martinez\desktop\game controller\schematic.dsn"
+         "Controller")
+      (Select "Design Resources"
+         "c:\users\kyler martinez\desktop\game controller\schematic.dsn"
+         "Controller" "Interrupt Circuit"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1115"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 2314 24 1133")
+        (Scroll "0 9")
+        (Zoom "292")
+        (Occurrence "/"))
+      (Path "C:\USERS\KYLER MARTINEZ\DESKTOP\GAME CONTROLLER\SCHEMATIC.DSN")
+      (Schematic "Controller")
+      (Page "Button Module"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 2314 24 1133")
+        (Scroll "-410 0")
+        (Zoom "150")
+        (Occurrence "/"))
+      (Path "C:\USERS\KYLER MARTINEZ\DESKTOP\GAME CONTROLLER\SCHEMATIC.DSN")
+      (Schematic "Controller")
+      (Page "Total Circuit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 0 0 5 2314 24 1133")
+        (Scroll "255 306")
+        (Zoom "300")
+        (Occurrence "/"))
+      (Path "C:\USERS\KYLER MARTINEZ\DESKTOP\GAME CONTROLLER\SCHEMATIC.DSN")
+      (Schematic "Controller")
+      (Page "Analog Sticks"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 2314 24 1133")
+        (Scroll "341 348")
+        (Zoom "292")
+        (Occurrence "/"))
+      (Path "C:\USERS\KYLER MARTINEZ\DESKTOP\GAME CONTROLLER\SCHEMATIC.DSN")
+      (Schematic "Controller")
+      (Page "Button Select Circuit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 2314 24 1133")
+        (Scroll "231 124")
+        (Zoom "292")
+        (Occurrence "/"))
+      (Path "C:\USERS\KYLER MARTINEZ\DESKTOP\GAME CONTROLLER\SCHEMATIC.DSN")
+      (Schematic "Controller")
+      (Page "FAN & TEMP Sensor"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 2314 24 1133")
+        (Scroll "470 336")
+        (Zoom "292")
+        (Occurrence "/"))
+      (Path "C:\USERS\KYLER MARTINEZ\DESKTOP\GAME CONTROLLER\SCHEMATIC.DSN")
+      (Schematic "Controller")
+      (Page "Interrupt Circuit"))))
